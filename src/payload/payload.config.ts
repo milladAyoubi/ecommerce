@@ -1,4 +1,4 @@
-import { webpackBundler } from '@payloadcms/bundler-webpack' // bundler-import
+import { webpackBundler } from '@payloadcms/bundler-webpack'
 import { mongooseAdapter } from '@payloadcms/db-mongodb' // database-adapter-import
 import { payloadCloud } from '@payloadcms/plugin-cloud'
 import nestedDocs from '@payloadcms/plugin-nested-docs'
