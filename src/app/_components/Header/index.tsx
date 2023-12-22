@@ -20,7 +20,7 @@ export async function Header() {
 
   return (
     <>
-      <HeaderComponenet header={header}/>
+      <HeaderComponenet header={header} />
     </>
   )
 }

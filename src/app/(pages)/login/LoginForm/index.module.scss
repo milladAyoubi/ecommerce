@@ -1,22 +1,31 @@
 @import "../../../_css/common";
-
 .form {
-  margin-bottom: var(--base);
-  display: flex;
-  flex-direction: column;
-  gap: calc(var(--base) / 2);
-  align-items: flex-start;
-  width: 66.66%;
-
-  @include mid-break {
     width: 100%;
-  }
+    margin: var(--base) 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.form p {
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .submit {
-  margin-top: calc(var(--base) / 2);
+    margin-top: calc(var(--base) / 2);
+    border-radius: 10px;
+    width: 100%;
 }
 
 .message {
-  margin-bottom: var(--base);
+    margin-bottom: var(--base);
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
